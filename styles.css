@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif ;
+} 
+
+
+
+
+.inputlabel {
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.contactphone {
+  font-size: 2rem;
+  font-weight: 900;
+  padding-left: 3rem;
+}
+
+.contactus {
+  display: flex;
+  padding-top: 4rem;
+}
+.contact-text{
+  font-size:1.3rem;
+
+}
+
+.form-rounded {
+  border-radius: 1.5rem;
+  height: 4.5rem;
+  width: 100%;
+  padding-top: 3rem;
+  line-height: 10rem;
+  font-size: large;
+}
+
+.form-rounded-message {
+  border-radius: 1.5rem;
+  height: 10rem;
+  width: 100%;
+  padding-bottom:3rem;
+}
+
+.contacttext {
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-align: left;
+  padding-left: 3rem
+}
+
+.md-form {
+  padding: 1.5rem 0 1.5rem 0;
+}
+
+.contactussection {
+  background-color: #6BD4F2;
+  background-size: auto;
+  height: 55rem;
+  font-family: 'Poppins';
+  color: #fff;
+  padding-top: 8rem;
+}
+
+.touch {
+  font-size: 70px;
+  font-weight: 600;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.social a {
+  border-radius: 50%;
+  padding: 2rem;
+  color: #0072b1;
+  font-size: 2rem;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: .3s;
+}
+
+.social {
+  width: 1.25rem;
+  display: flex;
+}
+
+.btn {
+  background-color: #fc6c85;
+  color: white;
+  border: 0.125rem solid transparent;
+  font-weight: bold;
+  padding: 1.25rem 2.5rem;
+  border-radius: 0.625rem;
+  transition: transform .4s;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contactussection {
+    width: 100%;
+    height: 100%;
+  }
+
+  .form-rounded-message {
+    width: 17rem;
+  }
+
+  .inputlabel {
+    width: 20rem;
+    ;
+  }
+
+  .contactphone {
+    padding-left: 0.1rem;
+  }
+
+}
+#submit{
+  
+	background-color:#fc6c85 ;
+	color: white;
+	text-decoration: none;
+	border: 0.125rem solid transparent;
+	font-weight: bold;
+	padding: 0.813rem 3.75rem;
+	border-radius: 0.313rem;
+	transition: .4s;  
+  text-align: left;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .contactussection {
+    max-width: 100%;
+  }
+}
+
+
+ 
